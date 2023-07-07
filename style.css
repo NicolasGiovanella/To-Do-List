@@ -19,19 +19,36 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background: rgb(233,174,238);
+    background: radial-gradient(circle, rgba(233,174,238,1) 0%, rgba(148,187,233,1) 100%);
 }
 
 .container {
     background-color: black;
     padding: 10px;
-  
+    border-radius: 1rem;
+    min-height: 10rem;
+    padding: 1rem;
 }
 
 .btn-add{
     width: 35px;
     border-radius: 1rem;
+    color: black;
 }
 
 .input-tarefa{
-    color: black;
+    color: white;
+    background-color: black;
+    border-bottom-color: white;
+    border-width: 0;
+    border-bottom-width: 2px;
+}
+
+.input-tarefa::placeholder{
+    font-size: 17px;
+}
+
+.titulo{
+    text-align: center;
 }
